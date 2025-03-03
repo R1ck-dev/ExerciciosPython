@@ -1,0 +1,5 @@
+valor = input('Insira um valor entre 0 e 9999: ')
+print(f'Unidade: {valor[3]}')
+print(f'Dezena: {valor[2]}')
+print(f'Centena: {valor[1]}')
+print(f'Milhar: {valor[0]}')
